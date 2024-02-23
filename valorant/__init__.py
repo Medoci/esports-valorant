@@ -3,7 +3,7 @@ __version__ = "0.0.1"
 import logging
 import os
 import sys
-import datetime as datetime
+import datetime
 
 MODULE_PATH = os.path.dirname(os.path.realpath(__file__))
 REPO_PATH = os.path.dirname(MODULE_PATH)
@@ -22,4 +22,4 @@ logger.addHandler(handler)
 logger.setLevel(logging.DEBUG)
 
 # Get today's date
-LOAD_DATE: str = datetime.now().strftime('%Y-%m-%d')
+LOAD_DATE: str = datetime.datetime.now().strftime('%Y-%m-%d')
