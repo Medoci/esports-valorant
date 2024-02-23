@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "template"
+version = "0.1.0"
+description = "Default configuration for repositories"
+authors = ["Ben Liddington <liddingtonben@gmail.com>"]
+readme = "README.md"
+packages = [{include = "template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+mlflow = "^2.10.2"
+pytest = "^8.0.1"
+flake8 = "^7.0.0"
+pre-commit = "^3.6.2"
+scikit-learn = "^1.4.1.post1"
+nbformat = "^5.9.2"
+ipykernel = "^6.29.2"
+pytest-cov = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
