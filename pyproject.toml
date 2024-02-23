@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "template"
+name = "valorant"
 version = "0.1.0"
-description = "Default configuration for repositories"
+description = "A project to explore the valorant Esports scene"
 authors = ["Ben Liddington <liddingtonben@gmail.com>"]
 readme = "README.md"
-packages = [{include = "template"}]
+packages = [{include = "valorant"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

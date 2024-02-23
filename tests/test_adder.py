@@ -1,6 +1,6 @@
 import pytest
 
-from template.maths import adder
+from valorant.maths import adder
 
 def test_postive_numbers():
     """
